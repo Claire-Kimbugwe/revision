@@ -10,7 +10,17 @@
 # 
 # Because nums0 + nums1 = 2 + 7 = 9, return 0, 1.
 
-def sum2(nums):
+def sum2(nums,t):
     # todo: fill the bpdy of the function
-    pass
+    my_dict = {}
+    for i,value in enumerate(nums):
+        needed = t - value
+        if needed in my_dict:
+            result = (my_dict[needed],i)
+            return result
+        else:
+            my_dict[value]= i
 
+
+
+sum2([2,7,11,15],9)
