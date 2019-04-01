@@ -16,8 +16,8 @@ def sum2(nums,t):
     for i,value in enumerate(nums):
         needed = t - value
         if needed in my_dict:
-            result = (my_dict[needed],i)
-            return result
+            
+            return my_dict[needed],i
         else:
             my_dict[value]= i
 
