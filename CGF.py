@@ -1,5 +1,5 @@
 
-#given a list find the gretest commmon factor,( the largest number that is divisible by all 
+#given a list find the greatest commmon factor,( the largest number that is divisible by all 
 # items in the list
 
 def cdf(arr):
