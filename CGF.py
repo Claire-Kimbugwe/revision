@@ -1,3 +1,7 @@
+
+#given a list find the gretest commmon factor,( the largest number that is divisible by all 
+# items in the list
+
 def cdf(arr):
 	max_num = max(arr)
 	for i in range(max_num +1,1,-1):
